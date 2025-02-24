@@ -18,19 +18,19 @@ A probability-based rating system that dynamically adjusts ratings based on user
 git clone https://github.com/Vallurikeerthiram/relative-rating-system.git
 cd relative-rating-system
 ```
-###2. Set Up a Virtual Environment (Recommended)
+### 2. Set Up a Virtual Environment (Recommended)
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Mac/Linux
 venv\Scripts\activate  # On Windows
 ```
 
-###3. Install Dependencies
+### 3. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
-##How to Use
-###Run the program:
+## How to Use
+### Run the program:
 ```bash
 python src/main.py
 ```
@@ -39,7 +39,7 @@ python src/main.py
 - Provide a rating (1-5) → The system will adjust it based on your past ratings.
 - The driver's rating and your user credibility score will be updated!
 
-##Project Structure
+## Project Structure
 ```bash
 relative-rating-system/
 ├── data/                 # Stores all rating data
@@ -56,13 +56,13 @@ relative-rating-system/
 ├── README.md             # Documentation (This file)
 ```
 
-##Technologies Used
+## Technologies Used
 - Python
 - Pandas (Data Handling)
 - NumPy (Mathematical Operations)
 - Excel (XLSX) (Data Storage)
 
-#Developer Info
+# Developer Info
 - **Keerthi Ram Valluri**
 - **BTech CSE, Amrita School of Engineering, Bangalore**
 - [LinkedIn](https://in.linkedin.com/in/valluri-keerthi-ram-503576216)
