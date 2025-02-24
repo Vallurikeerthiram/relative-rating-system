@@ -1,0 +1,6 @@
+pandas
+numpy
+scipy
+openpyxl
+fastapi
+uvicorn
