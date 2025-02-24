@@ -32,7 +32,9 @@ pip install -r requirements.txt
 ## How to Use
 ### Run the program:
 ```bash
-python src/main.py
+python main.py  #for running main
+uvicorn api:app --reload --log-level debug #for api
+
 ```
 - Enter your User ID (If not found, it will create a new one).
 - Enter the Driver ID you are rating.
@@ -45,10 +47,10 @@ relative-rating-system/
 ├── data/                 # Stores all rating data
 │   ├── users_ratings.xlsx  
 │   ├── users_scores.xlsx  
-│   ├── drivers.xlsx  
-├── src/                  # Source code
-│   ├── main.py           # Main script
-│   ├── rating_system.py  # Core logic
+│   ├── drivers.xlsx                  
+│── main.py           # Main script
+│── rating_system.py  # Core logic
+│── api.py            # API
 ├── tests/                # (Optional) Unit tests
 ├── requirements.txt      # Dependencies
 ├── LICENSE               # Open-source license (MIT)
